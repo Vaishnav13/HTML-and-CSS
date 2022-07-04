@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Using Flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+            padding: 0px 20px;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            background-color: bisque;
+            height: 150vh;
+
+        }
+        header{
+            background-color: chartreuse;
+            color: black;
+            height: 30px;
+        }
+        .box1{
+            background-color: blueviolet;
+            color: aliceblue;
+            width: 40vw;
+            height: 50vh;
+            margin: 25px 25px;
+        }
+        .box2{
+            background-color: brown;
+            color: aliceblue;
+            width: 40vw;
+            height: 50vh;
+            margin: 25px 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float using Flex Box</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        ul{
+            padding: 25px;
+        }
+        li{
+           list-style: none; 
+           display: inline;
+           padding: 0px 35px;
+        }
+        header{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+        .right{
+            background-color: aquamarine;
+            color: black;
+            height: 50vh;
+            width: 40vw;
+            
+        }
+        .left{
+            background-color:brown;
+            color: white;
+            height: 50vh;
+            width: 40vw;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum modi eos dicta cumque et itaque illum odit commodi obcaecati optio reprehenderit hic, ea earum.</div>
+        <div class="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem assumenda architecto rem vel deserunt, repellendus nisi voluptas vero fugiat dolor praesentium perspiciatis, laudantium, cum laboriosam.</div>
+    </div>  
+</body>
+</html>
