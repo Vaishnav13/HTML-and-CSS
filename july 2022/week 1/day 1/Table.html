@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        caption{
+            background-color: aqua;
+        }
+        table{
+            width: 100vw;
+        }
+        th{
+            border: 2px solid black;
+        }
+     tr,th,td,table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .line1{
+            background-color: brown;
+            text-align: center;
+            height: 25px;
+        }
+        .line2{
+            background-color: cadetblue;
+            text-align: center;
+            height: 25px;
+        }
+        .line3{
+            background-color: chocolate;
+            text-align: center;
+            height: 25px;
+        }
+        .line4{
+            background-color: darkgreen;
+            text-align: center;
+            height: 25px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            height: 25px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>1980's My Little Ponies</caption>
+        <tr class="line1">
+            <th>     </th>
+            <th>Group Description</th>
+            <th>Doll Name</th>
+            <th>Body Color</th>
+            <th>Hair Color</th>
+        </tr>
+        <tr class="line2">
+            <td rowspan="2">Earth Ponies</td>
+            <td rowspan="2">Earth Ponies Are Without Horn Or Wings</td>
+            <td>Mintly</td>
+            <td>Mint Green</td>
+            <td>White</td>
+        </tr>
+        <tr class="line2">
+            <td>Truly</td>
+            <td>White</td>
+            <td>Royal Pink</td>
+        </tr>
+        <tr class="line3">
+            <td rowspan="3">Pegasus Ponies</td>
+            <td rowspan="3">Pegasus Ponies All Have Wings</td>
+            <td>Firefly</td>
+            <td>Pink</td>
+            <td>Blue</td>
+        </tr>
+        <tr class="line3">
+            <td>Skydancer</td>
+            <td>Yellow</td>
+            <td>Red And Light Yellow</td>
+        </tr>
+        <tr class="line3">
+            <td>Twlight</td>
+            <td>Purple</td>
+            <td>Light Pink</td>
+        </tr>
+        <tr class="line4">
+            <td rowspan="2">Unicorn Ponies</td>
+            <td rowspan="2">Unicorn Ponies Have A Single Horn</td>
+            <td>Galaxy</td>
+            <td>Pinkish</td>
+            <td>Red,Pink,White</td>
+        </tr>
+        <tr class="line4">
+            <td>Moon Dancer</td>
+            <td>White</td>
+            <td>Red With Purple</td>
+        </tr>
+    </table>
+    <footer><a href="https://www.wikipedia.org/">Click To wikipedia</a></footer>
+</body>
+</html>
