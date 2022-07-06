@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: thistle;
+            height: 200vh;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center ;
+
+
+        }
+        .box1{
+            background-color: aquamarine;
+            color: black;
+            border: 2px solid black;
+            height: 234px;
+            width: 234px;
+        }
+        .box2{
+            background-color: pink;
+            color: black;
+            border: 2px solid black;
+            height: 234px;
+            width: 234px;
+        }
+        header{
+            background-color: blueviolet;
+            color: aliceblue;
+            height: 50px;
+        }
+        ul li{
+            display: inline-block;
+            margin: 10px;
+        }
+        .para1{
+            background-color: coral;
+            color: black;
+            float: right;
+            border: 2px solid black;
+            height: 30vh;
+            width: 30vw;
+
+        }
+        .para2{
+            background-color: darkorange;
+            color: black;
+            float: left;
+            border: 2px solid black;
+            height: 30vh;
+            width: 30vw;
+
+        }
+        body{
+            background-color: thistle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        <div class="box2">Box2a</div>
+        <div class="box2">Box2b</div>
+    </div>
+    <div class="para">
+    <div class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea illum sit minus fuga perferendis iste sed culpa tempora, debitis modi eum nam provident.</div>
+    <div class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia, voluptate perspiciatis eius veritatis magni molestiae qui assumenda sequi provident odio minus corrupti culpa. Commodi cupiditate ea vel odit quidem, nihil consectetur.</div>
+</div>
+</body>
+</html>
