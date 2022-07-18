@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(202, 206, 209);
+}
+.navigation{
+    background-color: rgb(35, 34, 34);
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    height: 35px;
+}
+li{
+    padding: 10px;
+    margin-top: 6px;
+}
+.Header{
+    text-align: center;
+}
+img{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.container{
+    position: absolute;
+    left: 713px; 
+    margin-top: 30px; 
+}
+.head1{
+    display: flex;
+}
+button{
+    margin-left: 157px;
+    margin-top: 138px;
+}
+.text1{
+    margin-top: 454px;
+}
