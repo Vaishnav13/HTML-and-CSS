@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading1{
+    background-image: url(geeksforgeeks.jpg);
+    width: 100%;
+    height: 625px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.heading1 h2{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin: auto;
+    position: relative ;
+    top: 312px;
+    height: 32px;
+    width: 332px;
+    padding: 10px;
+}
+.heading2{
+    background-image: url(geeksforgeeks.jpg);
+    background-attachment: fixed;
+    background-size: 100px 100px;
+    width: 100%;
+    height: 625px;
+}
+.heading2 h2{
+    background-color: azure;
+    color: black;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 235px;
+    height:21px;
+    width: 131px;
+    padding: 16px;
+}
+.para1{
+    background-color: black;
+    color: aliceblue;
+    height: 81px;
+    padding: 27px;
+}
+.para2{
+    background-color: black;
+    color: aliceblue;
+    height: 36px;
+    padding: 20px;
+}
+.para3{
+    background-color: black;
+    color: aliceblue;
+    height: 11px;
+    padding: 27px;
+}
+
