@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+}
+.middle {
+    line-height: 2px;
+    display: grid;
+    place-content: center;
+    height: 300px;
+    width: 300px;
+
+}
+
+.delicious{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #87a448;
+}
+
+.diffcolor {
+    color: #614240;
+}
+
+h3 {
+    align-self: flex-end;
+    margin-top: 1px;
+    color: #bf8a44;
+}
+
+.para2 {
+    line-height: 1px;
+}
+
+.para {
+    color: #77484b;
+}
+
+.diffcolor2 {
+    color: #6b8c44;
+}
+
+.username {
+    color: #afc281;
+}
+
+.password {
+    color: #afc281;
+}
