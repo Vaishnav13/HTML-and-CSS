@@ -132,7 +132,7 @@ h3 {
     color: #a6bb7a;
     height: 25px;
     margin-top: 30px;
-    border: 1px dotted #010100 ;
+    border: 1 px dotted #010100 ;
     border-right: 0px;    
     border-left: 0px;
 }
@@ -165,4 +165,40 @@ li {
     transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+.para {
+    display: flex;
+}
+.month {
+     justify-content: center;
+     box-shadow:  #ebe3b5 -5px -5px, #ebe3b5 -10px -10px;
+     height: 40px;
+     width: 50px;
+     margin-left: 63px;
+     margin-top: -19px;
+     border: 1px solid #ebe3b5 ;
+     background-color: #f5f2df;
+}
+
+h6 {
+    color: #7fa617;
+    margin-left: 16px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    background-color: #ede1bb;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    margin-left: 35px;
+    color: #654040;
+}
+
+
+
+
 
