@@ -1,2 +1,2 @@
 # HTML-and-CSS
-Learning and practising HTML and CSS.
+Learning and practicing HTML and CSS.
